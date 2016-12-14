@@ -1,1 +1,1 @@
-map(lambda x: [x.add_url_rule('/', 'index', lambda: 'hola'),x.run(debug=True)] , [__import__('flask').Flask(__name__)])
+map(lambda x: [x.add_url_rule('/','index',lambda: 'hola'),x.run()],[__import__('flask').Flask(__name__)])
